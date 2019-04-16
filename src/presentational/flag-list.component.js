@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-import CountryFlag from './presentational/flag.component';
+import CountryFlag from './flag.component';
 
 const CountryFlagList = (props) => (
     <div className="countries-list">
