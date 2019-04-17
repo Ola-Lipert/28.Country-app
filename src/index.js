@@ -5,7 +5,7 @@ import { Router, hashHistory } from 'react-router';
 import routes from './routes';
 import store from './store';
 import DevTools from './DevTools';
-//import { getCountries } from './actions/actions-countries';
+import './country.css';
 
 render(
     <Provider store={store}>
@@ -14,5 +14,3 @@ render(
     </Provider>,
     document.getElementById('root')
 );
-
-//store.dispatch(getCountries());
